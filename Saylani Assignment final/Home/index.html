@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            color: #000;
+        }
+
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            border: 1px solid black;
+            padding: 10px 0px;
+        }
+
+        .nav-bar ul li {
+            list-style: none;
+        }
+
+        .nav-bar ul a {
+            /* text-decoration: none; */
+            color: #000;
+        }
+
+        .nav-bar ul a:hover {
+            color: aqua;
+            cursor: pointer;
+        }
+
+        .container h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .nav-bar img {
+            width: 40%;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .img img {
+            width: 250px;
+            height: 200px;
+            border-radius: 4px;
+        }
+
+        .container button {
+            margin-top: 40px;
+            width: 200px;
+            height: 30px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+
+        }
+
+        .container button:hover {
+            color: #000;
+            background-color: aqua;
+            border: none;
+
+        }
+
+        .br {
+            border-bottom: 1px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <center> <img src="Logo.jpg" alt=""></center>
+                <ul>
+                    <a href="http://127.0.0.1:5500/Home/index.html" target="_parent">
+                        <li>Home</li>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Manu/index.html" target="_parent">
+                        <li>Manu</li>
+                    </a>
+                    <a href="http://127.0.0.1:5500/About/index.html" target="_parent">
+                        <li>About</li>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Timing/index.html">
+                        <li>Timing</li>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Contact%20US/index.html">
+                        <li>Contact Us</li>
+                    </a>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>We Serve Fast Delicious Food To Our Customer</h1>
+        <div class="img">
+            <img src="view.jpg" alt="">
+            <img src="b-vie.jpg" alt="">
+            <img src="piz.jpg" alt="">
+        </div>
+        <center> <a href="http://127.0.0.1:5500/Manu/index.html" target="_parent"><button>Check Manu</button></a>
+        </center>
+    </div>
+    <div class="br"></div>
+    <footer>
+        <p style="text-align: center; font-weight: 500;">Copyright © 2023 Umair's Cuisine</p>
+    </footer>
+</body>
+
+</html>
